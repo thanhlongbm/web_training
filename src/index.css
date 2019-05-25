@@ -1,5 +1,6 @@
-/* ----------Reusable----------- */
-/* ----------------------------- */
+/* --------------------------------------------------Reusable-------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
 html{
     font-family: 'Lato', sans-serif;
     text-rendering: optimizeLegibility;
@@ -43,7 +44,7 @@ li{
     border-bottom: 3px solid #35CE97;
 }
 
-.sign_form{
+.form{
     display: inline-block;
     margin: 20px 20%;
     /* border: 2px solid #4F4F4F; */
@@ -52,8 +53,55 @@ li{
     box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.16);
 }
 
-/* -----------NavBar------------ */
-/* ----------------------------- */
+.form label{
+    font-size: 120%;
+}
+
+input, textarea{
+    cursor: pointer;
+}
+
+input[type = "email"],input[type = "password"], input[type = "text"],input[type = "number"], textarea, select{
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    height: 50px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form_btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 120%;
+    background-color: #35CE97;
+    border: 1px solid #35CE97;
+    border-radius: 88px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.form_btn:hover,
+.form_btn:active{
+    background-color: #4F4F4F;
+    border-color: #4F4F4F;
+}
+
+/* -----------------------------------------------NavBar------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
 
 .nav_bar{
     height: 70px;
@@ -110,64 +158,59 @@ li{
     color: white;
 }
 
-/* --------Sign In Form--------- */
-/* ----------------------------- */
+/* ----------------------------------------------------Sign In Form-------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
 
 .signin_header{
     text-align: center;
-}
-
-.sign_form label{
-    font-size: 120%;
 }
 
 .sign_form div span{
     color: #828282;
 }
 
-input[type = "email"],input[type = "password"]{
-    margin: 10px 0;
-    width: 100%;
-    height: 50px;
-    outline: none;
-    border: 1px solid #E0E0E0;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 10px;
-}
-
 .forgot_pwd{
     color: #35CE97;
 }
 
-.sign_in_btn{
-    margin-top: 20px;
-    width: 100%;
-    height: 50px;
-    color: white;
-    font-size: 120%;
-    background-color: #35CE97;
-    border: 1px solid #35CE97;
-    border-radius: 88px;
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.sign_in_btn:hover,
-.sign_in_btn:active{
-    background-color: #4F4F4F;
-    border-color: #4F4F4F;
-}
-
-#signin_error{
+#signin_error , #upload-error{
     margin: 10px 0;
     color: red;
 }
 
-/* -----------Footer------------ */
-/* ----------------------------- */
+/* -------------------------------------------------------Upload----------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.emotion_form .grid{
+    text-align: center;
+    font-size: 60%;
+}
+
+.emo-text1{
+    color: #51A4E0;
+}
+
+.emo-text2{
+    color: #A36ABE;
+}
+
+.emo-text3{
+    color: #EB5757;
+}
+
+.emo-text4{
+    color: #F2994A;
+}
+
+.emo-text5{
+    color: #4ED4A4;
+}
+
+/* -------------------------------------------------------Footer----------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
 
 footer{
     margin-top: 50px;

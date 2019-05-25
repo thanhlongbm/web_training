@@ -8,7 +8,7 @@
   <div class="grid">
     <div class="col-3"></div>
     <div class="col-6">
-      <div class = "sign_form">
+      <div class = "form sign_form">
         <form>
           <label>Email Address</label>
           <input type="email" placeholder="bullshit_email@gmail.com" name = "email">
@@ -20,7 +20,7 @@
           </div>
         </form>
         <div id = "signin_error"></div>
-      <button type="submit" class="sign_in_btn">Sign In</button>
+      <button type="submit" id="sign_in_btn" class = "form_btn">Sign In</button>
       </div>
     </div>
     <div class="col-3"></div>
